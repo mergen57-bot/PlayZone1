@@ -1,18 +1,19 @@
-# 1. Aşama: Derleme (Build)
+# 1. Aşama: Derleme
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# GitHub'daki tüm dosyaları kopyala
+# GitHub'daki her şeyi kopyala
 COPY . .
 
-# PROJEYİ TÜM KÜTÜPHANELERİYLE TEK BİR PAKET YAP (Self-Contained)
-RUN dotnet publish $(find . -name "*.csproj") -c Release -o /app/publish \
-    --runtime linux-x64 --self-contained true /p:PublishSingleFile=true
+# Projeyi derle ve paketle
+RUN dotnet publish $(find . -name "*.csproj") -c Release -o /app/publish
 
-# 2. Aşama: Çalıştırma (Runtime - Bağımsız mod)
-FROM mcr.microsoft.com/dotnet/runtime:8.0
+# 2. Aşama: Çalıştırma (ASP.NET tam paketi)
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
+
+# Derlenen dosyaları kopyala
 COPY --from=build /app/publish .
 
-# ÇALIŞTIRILACAK DOSYAYI OTOMATİK BUL VE BAŞLAT
-ENTRYPOINT ["sh", "-c", "./$(ls * | grep -v '\.' | head -n 1)"]
+# UYGULAMAYI BAŞLAT (İsim FilmDunyasi olarak ayarlandı)
+ENTRYPOINT ["dotnet", "FilmDunyasi.dll"]
