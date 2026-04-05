@@ -1,20 +1,18 @@
-# 1. Aşama: Derleme (SDK 8.0)
+# 1. Aşama: Derleme (Build)
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# GitHub'daki tüm dosyaları kopyala
+# Dosyaları kopyala
 COPY . .
 
-# Projeyi bul, bağımlılıkları çöz ve yayınla
+# Projeyi bul ve yayınla
 RUN dotnet restore $(find . -name "*.csproj")
-RUN dotnet publish $(find . -name "*.csproj") -c Release -o /app/out
+RUN dotnet publish $(find . -name "*.csproj") -c Release -o /app/publish
 
-# 2. Aşama: Çalıştırma (Runtime 8.0)
+# 2. Aşama: Çalıştırma (Runtime)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
+COPY --from=build /app/publish .
 
-# Derlenen dosyaları kopyala
-COPY --from=build /app/out .
-
-# Uygulamayı otomatik bul ve başlat
+# ÖNEMLİ: Uygulamayı otomatik bulup çalıştıran sihirli komut
 ENTRYPOINT ["sh", "-c", "dotnet $(ls *.dll | head -n 1)"]
