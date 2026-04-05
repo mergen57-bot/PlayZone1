@@ -1,0 +1,66 @@
+﻿@model FilmDunyasi.Models.Movie
+
+@{
+    ViewData["Title"] = "Yeni Oyun Ekle - PlayZone";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card glass-card border-info shadow-lg rounded-4 p-4 text-white">
+                <h2 class="text-cyan neon-text-strong fw-bold mb-4 text-center">
+                    <i class="fas fa-plus-circle me-2"></i> YENİ OYUN EKLE
+                </h2>
+                <hr class="border-secondary mb-4">
+
+                <form asp-action="Create" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger small mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Title" class="form-label fw-bold text-info">Oyun Adı</label>
+                        <input asp-for="Title" class="form-control bg-dark text-white border-secondary shadow-none" placeholder="Örn: Witcher 3" required />
+                        <span asp-validation-for="Title" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Year" class="form-label fw-bold text-info">Çıkış Yılı</label>
+                        <input asp-for="Year" type="number" class="form-control bg-dark text-white border-secondary shadow-none" placeholder="Örn: 2026" required />
+                        <span asp-validation-for="Year" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Genre" class="form-label fw-bold text-info">Oyun Türü</label>
+                        <input asp-for="Genre" class="form-control bg-dark text-white border-secondary shadow-none" placeholder="Örn: Aksiyon / RPG" />
+                        <span asp-validation-for="Genre" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-bold text-info">Oyun Kapak Resmi (Dosya Seç)</label>
+                        <input asp-for="ImageFile" type="file" class="form-control bg-dark text-white border-info shadow-none" accept="image/*" />
+                        <div class="form-text text-white-50 small mt-1">Sadece .jpg, .png veya .jpeg dosyaları.</div>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-neon-cyan py-3 fw-bold">
+                            <i class="fas fa-save me-2"></i> ARŞİVE KAYDET
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-light py-2 small text-decoration-none">
+                            İptal Et ve Geri Dön
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Dashboard ile aynı stili koruyoruz */
+    body { font-family: 'Rajdhani', sans-serif; background: #050505; color: #eee; }
+    .text-cyan { color: #0dcaf0 !important; }
+    .glass-card { background: rgba(255, 255, 255, 0.05) !important; backdrop-filter: blur(15px); }
+    .neon-text-strong { text-shadow: 0 0 10px #0dcaf0; }
+    .btn-neon-cyan { background: #0dcaf0; color: #000; transition: 0.3s; border: none; }
+    .btn-neon-cyan:hover { background: #fff; box-shadow: 0 0 20px #0dcaf0; }
+    .form-control:focus { background-color: #111 !important; border-color: #0dcaf0 !important; color: white !important; }
+</style>

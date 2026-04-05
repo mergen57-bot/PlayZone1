@@ -1,0 +1,111 @@
+/* --- PLAYZONE ANA DEĞİŞKENLER --- */
+:root {
+    --main-cyan: #0dcaf0;
+    --main-matrix: #00ff41;
+    --bg-dark: #050505;
+    --card-bg: rgba(20, 20, 20, 0.8);
+    --neon-glow: rgba(13, 202, 240, 0.3);
+    --transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* --- MATRIX MODU GEÇİŞLERİ --- */
+body.matrix-mode {
+    --main-cyan: var(--main-matrix);
+    --neon-glow: rgba(0, 255, 65, 0.3);
+    background-color: #000 !important;
+}
+
+body.matrix-mode * {
+    font-family: 'Consolas', 'Courier New', monospace !important;
+}
+
+/* --- GENEL TASARIM --- */
+body {
+    background-color: var(--bg-dark);
+    color: #eee;
+    overflow-x: hidden;
+}
+
+/* --- RESİM DÜZENLEME (ÇİRKİNLİĞİ BİTİREN KISIM) --- */
+.card-img-top {
+    height: 200px !important;
+    object-fit: cover !important; /* Resimler asla sünmez, kutuyu tam doldurur */
+    object-position: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+    transition: var(--transition);
+}
+
+/* --- KART TASARIMI --- */
+.glow-card {
+    background: var(--card-bg) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+    transition: var(--transition);
+    position: relative;
+    z-index: 1;
+}
+
+.glow-card:hover {
+    transform: translateY(-12px) scale(1.03);
+    border-color: var(--main-cyan) !important;
+    box-shadow: 0 15px 35px var(--neon-glow) !important;
+}
+
+/* Resim üzerine gelince parlama */
+.glow-card:hover .card-img-top {
+    filter: brightness(1.2) contrast(1.1);
+}
+
+/* --- İSTATİSTİK KUTULARI --- */
+.stat-box {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(13, 202, 240, 0.2);
+    transition: var(--transition);
+}
+
+.stat-box:hover {
+    border-color: var(--main-cyan);
+    background: rgba(13, 202, 240, 0.05);
+    box-shadow: 0 0 20px var(--neon-glow);
+}
+
+/* --- ÖZEL BUTON VE BADGE'LER --- */
+.category-pill {
+    border: 1px solid var(--main-cyan);
+    color: var(--main-cyan);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.category-pill:hover {
+    background: var(--main-cyan);
+    color: #000;
+    box-shadow: 0 0 15px var(--main-cyan);
+}
+
+/* --- TOAST BİLDİRİM STİLİ --- */
+.neon-toast {
+    background: rgba(0, 0, 0, 0.9) !important;
+    border: 2px solid var(--main-cyan) !important;
+    box-shadow: 0 0 20px var(--neon-glow) !important;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* --- KAYDIRMA ÇUBUĞU (SCROLLBAR) --- */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #000;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--main-cyan);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}

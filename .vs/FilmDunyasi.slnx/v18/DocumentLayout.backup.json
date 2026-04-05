@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403125200_BosGecilebilirAlanlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FilmDunyasi\\Migrations\\20260403125200_BosGecilebilirAlanlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\migrations\\20260403162031_yenikurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\migrations\\20260403162031_yenikurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\migrations\\20260403182512_finalupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\migrations\\20260403182512_finalupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\migrations\\20260403185017_lastupdatefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\migrations\\20260403185017_lastupdatefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|c:\\users\\muham\\desktop\\filmdunyasi\\filmdunyasi\\migrations\\20260403183819_addedfieldsupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4C8D86-2225-8CF8-B593-B575888C471D}|FilmDunyasi\\FilmDunyasi.csproj|solutionrelative:filmdunyasi\\migrations\\20260403183819_addedfieldsupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FilmDunyasi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T19:03:08.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Create.cshtml",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\Movies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Create.cshtml",
+              "RelativeToolTip": "FilmDunyasi\\Views\\Movies\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T19:17:57.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\Movies\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Delete.cshtml",
+              "RelativeToolTip": "FilmDunyasi\\Views\\Movies\\Delete.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T19:38:14.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\Movies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "FilmDunyasi\\Views\\Movies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T19:14:39.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "FilmDunyasi\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAiwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T18:30:28.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FilmDunyasi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwEwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T13:04:03.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FilmDunyasi\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FilmDunyasi\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T11:06:26.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\appsettings.json",
+              "RelativeDocumentMoniker": "FilmDunyasi\\appsettings.json",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\appsettings.json",
+              "RelativeToolTip": "FilmDunyasi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-02T19:23:56.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "FilmDunyasi\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T18:40:17.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FilmDunyasi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:24:52.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260403185017_LastUpdateFix.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403185017_LastUpdateFix.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Migrations\\20260403185017_LastUpdateFix.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403185017_LastUpdateFix.cs",
+              "RelativeToolTip": "FilmDunyasi\\Migrations\\20260403185017_LastUpdateFix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T18:50:17.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Models\\Movie.cs",
+              "RelativeToolTip": "FilmDunyasi\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T18:11:48.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260403183819_AddedFieldsUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403183819_AddedFieldsUpdate.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Migrations\\20260403183819_AddedFieldsUpdate.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403183819_AddedFieldsUpdate.cs",
+              "RelativeToolTip": "FilmDunyasi\\Migrations\\20260403183819_AddedFieldsUpdate.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T18:38:19.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260403182512_FinalUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403182512_FinalUpdate.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Migrations\\20260403182512_FinalUpdate.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403182512_FinalUpdate.cs",
+              "RelativeToolTip": "FilmDunyasi\\Migrations\\20260403182512_FinalUpdate.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T18:25:12.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FilmDunyasi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T16:12:35.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260403162031_YeniKurulum.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403162031_YeniKurulum.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Migrations\\20260403162031_YeniKurulum.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403162031_YeniKurulum.cs",
+              "RelativeToolTip": "FilmDunyasi\\Migrations\\20260403162031_YeniKurulum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T16:20:31.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FilmDunyasi\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-03T10:59:34.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Program.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Program.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Program.cs",
+              "RelativeToolTip": "FilmDunyasi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T19:06:43.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FilmDunyasi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\appsettings.Development.json",
+              "RelativeToolTip": "FilmDunyasi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-02T19:36:49.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260403125200_BosGecilebilirAlanlar.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403125200_BosGecilebilirAlanlar.cs",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Migrations\\20260403125200_BosGecilebilirAlanlar.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Migrations\\20260403125200_BosGecilebilirAlanlar.cs",
+              "RelativeToolTip": "FilmDunyasi\\Migrations\\20260403125200_BosGecilebilirAlanlar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:52:01.161Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

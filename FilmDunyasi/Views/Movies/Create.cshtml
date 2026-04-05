@@ -1,0 +1,68 @@
+﻿@model FilmDunyasi.Models.Movie
+
+<div class="container mt-5">
+    <div class="card bg-dark border-info shadow-lg rounded-4 p-4 text-white" style="background: linear-gradient(145deg, #050505, #111);">
+        <h2 class="text-cyan fw-bold mb-4 text-center">YENİ OYUN EKLE</h2>
+        <form asp-action="Create" enctype="multipart/form-data" method="post">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label text-info fw-bold small">OYUN ADI</label>
+                    <input asp-for="Title" class="form-control bg-black text-white border-secondary" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label text-info fw-bold small">YIL</label>
+                    <input asp-for="Year" type="number" class="form-control bg-black text-white border-secondary" required />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label text-cyan fw-bold small">PLATFORMLAR (Ctrl+Tık)</label>
+                    <select name="selectedPlatforms" class="form-select bg-black text-white border-info" multiple style="height: 100px;">
+                        <option value="PC">🖥️ PC</option>
+                        <option value="Mobil">📱 Mobil</option>
+                        <option value="Konsol">🎮 Konsol</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label text-cyan fw-bold small">TÜRLER (Ctrl+Tık)</label>
+                    <select name="selectedGenres" class="form-select bg-black text-white border-info" multiple style="height: 150px;">
+                        <option value="Aksiyon">🔫 Aksiyon</option>
+                        <option value="Macera">🗺️ Macera</option>
+                        <option value="Spor">⚽ Spor</option>
+                        <option value="Strateji">🧠 Strateji</option>
+                        <option value="RPG">🎭 RPG</option>
+                        <option value="Korku">😱 Korku</option>
+                        <option value="Bulmaca">🧩 Bulmaca</option>
+                        <option value="Sosyal Oyun">🤝 Sosyal Oyun</option>
+                        <option value="Simülasyon">🏠 Simülasyon</option>
+                        <option value="Yarış">🚗 Yarış</option>
+                        <option value="Açık Dünya">🌍 Açık Dünya</option>
+                        <option value="FPS">🎯 FPS</option>
+                        <option value="Hayatta Kalma">🏕️ Hayatta Kalma</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label text-warning fw-bold small text-uppercase">Açıklama</label>
+                <textarea asp-for="Description" class="form-control bg-black text-white border-secondary" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label text-warning fw-bold small text-uppercase">Nasıl Oynanır?</label>
+                <textarea asp-for="HowToPlay" class="form-control bg-black text-white border-secondary" rows="3"></textarea>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label text-info fw-bold small">KAPAK RESMİ</label>
+                <input asp-for="ImageFile" type="file" class="form-control bg-black text-white border-info" />
+            </div>
+
+            <div class="d-flex gap-2">
+                <a href="/Movies" class="btn btn-outline-secondary w-50 rounded-pill">İPTAL</a>
+                <button type="submit" class="btn btn-info w-50 rounded-pill fw-bold text-dark shadow-neon">KAYDET</button>
+            </div>
+        </form>
+    </div>
+</div>
