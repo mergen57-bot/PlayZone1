@@ -1,18 +1,17 @@
-# SDK imajını kullanarak projeyi derleyelim
+# 1. Aşama: Derleme
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
+WORKDIR /app
 
-# Dosyaları kopyala ve geri yükle
+# Tüm dosyaları kopyala
 COPY . .
-RUN dotnet restore "FilmDunyasi.sln"
 
-# Yayınla
-RUN dotnet publish "FilmDunyasi/FilmDunyasi.csproj" -c Release -o /app/publish
+# Projeyi bul ve yayınla (Klasör ismi ne olursa olsun otomatik bulur)
+RUN dotnet publish -c Release -o /out
 
-# Çalışma zamanı imajına geçelim
+# 2. Aşama: Çalıştırma
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
-COPY --from=build /app/publish .
+COPY --from=build /out .
 
-# Uygulamayı başlat (Dll adın FilmDunyasi değilse burayı düzelt)
+# DİKKAT: Eğer projenin adı FilmDunyasi değilse burayı değiştir!
 ENTRYPOINT ["dotnet", "FilmDunyasi.dll"]
