@@ -2,20 +2,19 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Sadece proje klasörünü kopyalayalım, o karmaşık .slnx dosyasını boşverelim
-COPY FilmDunyasi/ ./FilmDunyasi/
+# GitHub'daki tüm dosyaları (klasörler dahil) kopyala
+COPY . .
 
-# Projenin içine girelim ve bağımlılıkları çözelim
-WORKDIR "/src/FilmDunyasi"
-RUN dotnet restore
+# Hangi klasörde olursan ol, .csproj dosyasını bul ve bağımlılıkları yükle
+RUN dotnet restore $(find . -name "*.csproj")
 
-# Projeyi derleyelim ve yayınlayalım
-RUN dotnet publish "FilmDunyasi.csproj" -c Release -o /app/publish
+# Projeyi bul ve derleyip /app/publish klasörüne çıkar
+RUN dotnet publish $(find . -name "*.csproj") -c Release -o /app/publish
 
 # 2. Aşama: Çalıştırma (Runtime)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Uygulamanın asıl dosyasını başlat
-ENTRYPOINT ["dotnet", "FilmDunyasi.dll"]
+# ÇIKTI OLARAK OLUŞAN DLL DOSYASINI BUL VE BAŞLAT
+ENTRYPOINT ["sh", "-c", "dotnet $(ls *.dll | head -n 1)"]
