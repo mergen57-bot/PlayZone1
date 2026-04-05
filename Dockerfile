@@ -1,19 +1,17 @@
-# 1. Aşama: Derleme
+# 1. Aşama: Derleme (Build)
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
+WORKDIR /src
 
-# Tüm dosyaları kopyala
+# GitHub'daki tüm dosyaları kopyala
 COPY . .
 
-# Projeyi derle ve doğrudan /app/publish içine at
-RUN dotnet publish -c Release -o /app/publish
+# Proje dosyasını OTOMATİK BUL ve derle
+RUN dotnet publish $(find . -name "*.csproj") -c Release -o /app/publish
 
-# 2. Aşama: Çalıştırma
+# 2. Aşama: Çalıştırma (Runtime)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
-
-# Derlenen her şeyi kopyala
 COPY --from=build /app/publish .
 
-# ÖNEMLİ: Uygulamayı çalıştıracak ana dosya (İsim tam tutmalı)
-ENTRYPOINT ["dotnet", "FilmDunyasi.dll"]
+# Çalıştırılacak DLL dosyasını OTOMATİK BUL ve başlat
+ENTRYPOINT ["sh", "-c", "dotnet $(ls *.dll | head -n 1)"]
