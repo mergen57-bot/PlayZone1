@@ -5,13 +5,14 @@ WORKDIR /src
 # GitHub'daki tüm dosyaları kopyala
 COPY . .
 
-# Proje dosyasını OTOMATİK BUL ve derle
-RUN dotnet publish $(find . -name "*.csproj") -c Release -o /app/publish
+# PROJEYİ TÜM KÜTÜPHANELERİYLE TEK BİR PAKET YAP (Self-Contained)
+RUN dotnet publish $(find . -name "*.csproj") -c Release -o /app/publish \
+    --runtime linux-x64 --self-contained true /p:PublishSingleFile=true
 
-# 2. Aşama: Çalıştırma (Runtime)
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# 2. Aşama: Çalıştırma (Runtime - Bağımsız mod)
+FROM mcr.microsoft.com/dotnet/runtime:8.0
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Çalıştırılacak DLL dosyasını OTOMATİK BUL ve başlat
-ENTRYPOINT ["sh", "-c", "dotnet $(ls *.dll | head -n 1)"]
+# ÇALIŞTIRILACAK DOSYAYI OTOMATİK BUL VE BAŞLAT
+ENTRYPOINT ["sh", "-c", "./$(ls * | grep -v '\.' | head -n 1)"]
