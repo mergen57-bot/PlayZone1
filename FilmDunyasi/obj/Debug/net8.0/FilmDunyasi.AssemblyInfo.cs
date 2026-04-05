@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmDunyasi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba9fd110093c8a058dba5a0177d39eac60d62617")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc40452430328dea86bf3e989cfee4bf64230ced")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmDunyasi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmDunyasi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

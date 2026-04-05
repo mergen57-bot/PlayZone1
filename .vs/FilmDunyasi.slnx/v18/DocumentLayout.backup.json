@@ -115,18 +115,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "FilmDunyasi\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAHMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-02T19:03:08.139Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Movies\\Delete.cshtml",
@@ -186,10 +174,6 @@
               "WhenOpened": "2026-04-02T19:17:57.043Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FilmDunyasi",
@@ -200,6 +184,22 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-04-05T14:03:04.194Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FilmDunyasi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\FilmDunyasi\\FilmDunyasi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FilmDunyasi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAHMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T19:03:08.139Z"
             },
             {
               "$type": "Document",
